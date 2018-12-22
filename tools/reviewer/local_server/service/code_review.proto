@@ -7,7 +7,8 @@ option java_outer_classname = "Protos";
 
 import "common/repo/repo.proto";
 import "common/text_difference.proto";
-import "tools/reviewer/reviewer.proto";
+import "common/test.proto";
+// import "tools/reviewer/reviewer.proto";
 
 service CodeReviewService {
   // Get a text file's contents
@@ -98,7 +99,8 @@ message Diff {
   string modified_by = 16;
   // GitHub PRs associated with this repo.
   repeated GithubPr github_pr = 17;
-  com.google.startupos.tools.reviewer.CIResponse ci = 18;
+  // com.google.startupos.tools.reviewer.CIResponse ci = 18;
+  my.text.package.TestMessage ci = 18;
 }
 
 message Reviewer {

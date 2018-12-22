@@ -1,6 +1,9 @@
 syntax = "proto3";
 
-package my.text.package;
+package com.google.startupos.common;
+
+option java_package = "com.google.startupos.common";
+option java_outer_classname = "Protos";
 
 message TestMessage {
   int32 age = 1;

@@ -100,7 +100,7 @@ message Diff {
   // GitHub PRs associated with this repo.
   repeated GithubPr github_pr = 17;
   // com.google.startupos.tools.reviewer.CIResponse ci = 18;
-  my.text.package.TestMessage ci = 18;
+  com.google.startupos.common.TestMessage ci = 18;
 }
 
 message Reviewer {

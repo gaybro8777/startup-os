@@ -4,7 +4,7 @@ package com.google.startupos.tools.reviewer;
 option java_package = "com.google.startupos.tools.reviewer";
 option java_outer_classname = "RegistryProtos";
 
-// import "tools/reviewer/reviewer.proto";
+import "tools/reviewer/reviewer.proto";
 
 /* Config for a Reviewer instance for a registry. */
 message ReviewerRegistryConfig {

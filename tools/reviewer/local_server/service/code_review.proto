@@ -7,8 +7,12 @@ option java_outer_classname = "Protos";
 
 import "common/repo/repo.proto";
 import "common/text_difference.proto";
+<<<<<<< HEAD
 // import "common/test.proto";
 // import "tools/reviewer/reviewer.proto";
+=======
+import "tools/reviewer/reviewer.proto";
+>>>>>>> 5853396dd52c2631ea5886e371a52ff643ba654e
 
 service CodeReviewService {
   // Get a text file's contents
@@ -106,7 +110,6 @@ message Diff {
 message TestCode {
   string workspace = 1;
   com.google.startupos.common.TextDiff text_diff = 2;
-}
 
 message Reviewer {
   string email = 1;

@@ -1,7 +1,7 @@
 java_library(
-    name = "j2objc_annotations",
+    name = "re2j",
     exports = [
-        "//external:jar/mvncom/google/j2objc/j2objc_annotations"
+        "//external:jar/mvncom/google/re2j/re2j"
     ],
     licenses = [
         "permissive"
